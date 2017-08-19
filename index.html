@@ -17,11 +17,68 @@
     <meta property="og:image" content="http://tangoutrip.si/img/boleo.jpg" />
 		<link rel="image_src" href="http://tangoutrip.si/img/boleo.jpg" />-->
     <link rel="icon" type="image/png" href="deygonnasee.png">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shadows+Into+Light+Two&amp;subset=latin-ext" rel="stylesheet">
+
+		<style>
+			body {
+				background-color: #111111;
+				color: #bb7347;
+				text-align: center;
+				font-family: 'Open Sans', sans-serif;
+			}
+			a { color: #bb7347; text-decoration: none; }
+			a:hover, a:focus { color: #e38b56; }
+			img {
+				width: 20%;
+				height: auto;
+				margin-top: 5%;
+			}
+			.emph {
+				font-size: 2em;
+				font-family: 'Shadows Into Light Two', 'Open Sans', sans-serif;
+			}
+
+			@font-face {
+			  font-family: 'icomoon';
+			  src:  url('fonts/icomoon.eot?wad8lg');
+			  src:  url('fonts/icomoon.eot?wad8lg#iefix') format('embedded-opentype'),
+			    url('fonts/icomoon.ttf?wad8lg') format('truetype'),
+			    url('fonts/icomoon.woff?wad8lg') format('woff'),
+			    url('fonts/icomoon.svg?wad8lg#icomoon') format('svg');
+			  font-weight: normal;
+			  font-style: normal;
+			}
+
+			[class^="icon-"], [class*=" icon-"] {
+			  /* use !important to prevent issues with browser extensions that change fonts */
+			  font-family: 'icomoon' !important;
+			  speak: none;
+			  font-style: normal;
+			  font-weight: normal;
+			  font-variant: normal;
+			  text-transform: none;
+			  line-height: 1;
+
+			  /* Better Font Rendering =========== */
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+
+			.icon-deygonnasee:before { content: "\e902"; }
+			.icon-phone:before { content: "\e942"; }
+			.icon-facebook2:before { content: "\ea91"; }
+
+			.contact span { display: inline-block; margin: 0 20px; }
+			.social { font-size: 2em; }
+		</style>
 
 </head>
 
-<body style="text-align: center; background-color: #111111;">
-	<img src="Foil_dgs.png" style="width: 40%; height: auto; margin-top: 5%;" />
+<body>
+	<img src="Foil_dgs.png" />
+	<p class="emph">Dean Gostimirović</p>
+	<p class="contact"><a href="mailto:info@deygonna.si">info@deygonna.si</a> <span class="icon-deygonnasee"></span> +386 40 325 105</p>
+	<p class="social"><a href="https://www.facebook.com/DeanGostimirovic/"><span class="icon-facebook2"></span></a></p>
 </body>
 
 </html>
